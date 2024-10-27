@@ -89,5 +89,6 @@ The following queries are executed to analyze different aspects of the data:
 
 ## Additional Notes
 
-- **Parquet Format**: Parquet data format is more efficient for storage and query optimization.
-- **Cached Data**: Cached data significantly reduces query runtime, especially for large datasets.
+- **Parquet Format**: Parquet data format is typically more efficient for storage and query optimization with larger datasets.
+- **Cached Data**: Cached data with larger datasets, significantly reduces query runtime, especially for large datasets.
+- The dataset used in this repository did not reveal any great differences in efficiency, but that was most likely due to the lack of complexity and size of the data set.
